@@ -11,7 +11,7 @@ error() {
   exit 1
 }
 
-root_file="$1"
+target_file="$1"
 working_directory="$2"
 
 if [ -z "$target_file" ]; then
