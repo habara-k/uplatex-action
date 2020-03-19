@@ -9,7 +9,7 @@ jobs:
       - name: Compile basic LaTeX document
         uses: ./
         with:
-          root_file: test.tex
+          target_file: test.tex
           working_directory: test/
       - name: Upload
         uses: actions/upload-artifact@master
